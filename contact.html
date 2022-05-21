@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="contact_style.css">
+</head>
+
+<body>
+    <div class = "contactbox">
+<t>Contact Us<br><br></t>
+<form method = "post" action = "contact_process.php">
+    <label for = "name">*Your name: </label><br>
+    <input type = "text" id = "name" name = "name"><br><br>
+
+    <label for = "receiver">*Your e-mail address: </label><br>
+    <input type = "email" id ="receiver" name = "receiver"><br><br>
+
+    <label for = "message">*Message: (max. 255 characters) </label><br>
+    <textarea id = "message" name = "message" maxlength = "255" style = "width:360px; height:100px">
+    </textarea><br><br>
+
+    <input type = "submit" value = "Send E-mail">
+     
+    <br><br>
+
+    <a href = "blog.php">Back to blog</a><br><br>
+
+</form>
+</div>
+</body>
+</html>

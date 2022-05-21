@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding:0;
+    background: url(sunset.jpg);
+    background-size: auto;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.contactbox{
+    width: 500px;
+    height: 500px;
+    background: #fff;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+}
+
+.contactbox t{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.contactbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #6b0634 ;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.contactbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: #f0c948;
+    color: #000;
+}
